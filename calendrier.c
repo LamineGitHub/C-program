@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <conio.h>
 
 /* --------------------------------------------------------- */
@@ -21,7 +22,7 @@ int main(int argc, char const *argv[])
 
         do
         {
-        printf("\n");
+            printf("\n");
             printf("!!! Une annee comporte 12 mois pour info !!!\n");
             printf(" Saisir le mois --> ");
             scanf("%d", &mois);
@@ -174,7 +175,7 @@ int nbr_de_jour(int nbr_du_mois, int annee)
  * @param annee l'année
  * @param mois mois
  *
- * @return le nombre de jours dans le mois.
+ * @return le calendrier.
  */
 int affichage_du_calendrier(int annee, int mois)
 {
